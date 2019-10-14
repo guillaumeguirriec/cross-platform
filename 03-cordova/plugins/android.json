@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "fr.hellocordova"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "fr.hellocordova"
     }
   },
   "dependent_plugins": {}

@@ -1,6 +1,6 @@
 {
   "name": "fr.hellocordova",
-  "displayName": "03-cordova",
+  "displayName": "cordova",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "main": "index.js",
@@ -14,14 +14,16 @@
   "license": "Apache-2.0",
   "dependencies": {
     "cordova-android": "^8.1.0",
-    "cordova-browser": "6.0.0"
+    "cordova-browser": "6.0.0",
+    "cordova-plugin-device": "2.0.3"
   },
   "devDependencies": {
     "cordova-plugin-whitelist": "^1.3.4"
   },
   "cordova": {
     "plugins": {
-      "cordova-plugin-whitelist": {}
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-device": {}
     },
     "platforms": [
       "browser",
