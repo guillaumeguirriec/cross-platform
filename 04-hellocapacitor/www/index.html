@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Blog DevFest Nantes</title>
+    <script
+      type="module"
+      src="https://unpkg.com/@ionic/core@4.9.1/dist/ionic/ionic.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/@ionic/core@4.9.1/dist/ionic/ionic.js"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@ionic/core@4.9.1/css/ionic.bundle.css"
+    />
+  </head>
+  <body>
+    <ion-app>
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Blog DevFest Nantes</ion-title>
+        </ion-toolbar>
+      </ion-header>
+
+      <ion-content id="ion-content">
+        <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+          <ion-fab-button onclick="takePicture()">
+            <ion-icon name="camera"></ion-icon>
+          </ion-fab-button>
+        </ion-fab>
+      </ion-content>
+
+      <ion-footer>
+        <ion-toolbar>
+          <ion-title>Footer</ion-title>
+        </ion-toolbar>
+      </ion-footer>
+    </ion-app>
+    <script src="capacitor.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "01-mini-pwa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -a localhost -c 0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "0.9.0"
+  },
+  "dependencies": {},
+  "description": ""
+}

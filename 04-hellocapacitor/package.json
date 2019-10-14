@@ -1,0 +1,16 @@
+{
+  "name": "04-hellocapacitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/cli": "^1.2.1",
+    "@capacitor/core": "^1.2.1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "DevFest Nantes 2018",
+  "start_url": ".",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "image.png",
+      "sizes": "192x192"
+    }
+  ]
+}
